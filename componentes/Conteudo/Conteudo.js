@@ -1,7 +1,8 @@
 import React from "react";
-import { View, Text, StyleSheet, Image } from "react-native";
+import { View, Text, Image } from "react-native";
 
 import Jogos from "../../assets/images/img2.png";
+import estilos from "./estilosConteudo";
 
 export default function Conteudo() {
     return (
@@ -12,29 +13,3 @@ export default function Conteudo() {
         </View>
     )
 }
-
-const estilos = StyleSheet.create({
-    containerConteudo: {
-      padding: 30,
-      alignItems: "center",
-    },
-  
-    titulo: {
-      fontSize: 18,
-      fontWeight: "bold",
-      marginBottom: 10,
-      textAlign: "center",
-    },
-  
-    descricao: {
-      textAlign: "center",
-      fontWeight: "normal",
-      marginBottom: 30,
-    },
-  
-    ConteudoImg: {
-      width: 200,
-      height: 120,
-      marginBottom: 10,
-    }
-  });
