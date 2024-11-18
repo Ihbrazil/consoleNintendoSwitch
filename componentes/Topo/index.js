@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Image } from "react-native";
 
 import Capa from "../../assets/images/img1.png";
-import estilos from "./estilosTopo";
+import estilos from "./estilos";
 
 export default function Topo() {
     return (

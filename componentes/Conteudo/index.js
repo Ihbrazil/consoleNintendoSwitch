@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Image } from "react-native";
 
 import Jogos from "../../assets/images/img2.png";
-import estilos from "./estilosConteudo";
+import estilos from "./estilos";
 
 export default function Conteudo() {
     return (
